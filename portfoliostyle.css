@@ -1,0 +1,28 @@
+body {
+  background-color: #f1dcc9;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  background-color: rgb(100, 2, 2);
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-shrink: 3;
+}
+
+.flex-container img {
+  display: block;
+  max-width: 500px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
